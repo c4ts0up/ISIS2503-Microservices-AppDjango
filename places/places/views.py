@@ -4,6 +4,7 @@ from django.contrib import messages
 from django.http import HttpResponse
 from django.urls import reverse
 from django.http import JsonResponse
+from django.conf import settings
 import json
 
 def PlaceList(request):

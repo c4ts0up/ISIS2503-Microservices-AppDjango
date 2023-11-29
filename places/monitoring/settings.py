@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'places.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.environ.get("PLACES_DB", "PLACES_DB"),
+        'NAME': os.environ.get("PLACES_DB", "places_db"),
         'USER': os.environ.get("PLACES_DB_USER", "places_user"),
         'PASSWORD': os.environ.get("PLACES_DB_PASSWD", "isis2503"),
         'HOST': os.environ.get("PLACES_DB_HOST", "0.0.0.0"),

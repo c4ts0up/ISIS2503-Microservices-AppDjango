@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'places.urls'
+ROOT_URLCONF = 'monitoring.urls'
 
 TEMPLATES = [
     {
